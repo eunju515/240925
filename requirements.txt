@@ -2,4 +2,3 @@ matplotlib
 pandas
 koreanize-matplotlib
 plotly
-streamlit-folium.git
