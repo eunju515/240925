@@ -51,3 +51,4 @@ if st.button('날씨 조회하기'):
             error_message = response.json().get('message', '알 수 없는 오류')
             st.error(f'날씨 정보를 불러오는 데 실패했습니다: {error_message}')
 
+## 94a2959a46389ae7401e4e89e969b013  : openWeather 키
