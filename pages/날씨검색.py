@@ -47,6 +47,4 @@ if st.button('날씨 조회하기'):
             st.write(f"최고 온도: {data['main']['temp_max']}°C")
             st.write(f"습도: {data['main']['humidity']}%")
         else:
-            # 오류 발생 시, API에서 반환한 에러 메시지를 표시
-            error_message = response.json().get('message', '알 수 없는 오류')
-            st.error(f'날씨 정보를 불러오는 데 실패했습니다: {error_message}')
+            st.error('날씨 정보를 불러오는 데 실패했습니다. 도시 이름이나 API 키를 확인해주세요.')
