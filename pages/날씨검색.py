@@ -29,7 +29,7 @@ if st.button('날씨 조회하기'):
             city_query = encoded_city
         
         # OpenWeatherMap API 요청 URL
-        url = f'http://api.openweathermap.org/data/2.5/weather?q={city_query}&appid={api_key}&lang=kr&units=metric'
+        url = 'http://api.openweathermap.org/data/2.5/weather?q={city_query}&appid={api_key}&lang=kr&units=metric'
 
         # API 호출
         response = requests.get(url)
